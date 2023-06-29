@@ -1,0 +1,19 @@
+[package]
+name = "asn1_rust"
+version = "0.1.0"
+authors = ["efreemb <fredrik.emberg@ericsson.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.0"
+
+[profile.release]
+# lto = true
+# codegen-units = 1
+# panic = "abort"
+
+# https://nnethercote.github.io/perf-book/build-configuration.html

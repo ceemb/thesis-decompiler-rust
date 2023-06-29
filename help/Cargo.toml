@@ -1,0 +1,7 @@
+[package]
+name = "help"
+version = "0.1.0"
+authors = ["redacted"]
+edition = "2018"
+
+[dependencies]
