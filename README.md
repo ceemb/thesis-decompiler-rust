@@ -1,2 +1,2 @@
 # thesis-decompiler-rust
-This is the repository for thr source code of the Rust decompiler written for our thesis. The code will be published here soon.
+This is the repository for the source code of the Rust decompiler written for our [thesis](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-195552). Due to parts of the original code being proprietary, this repo is not complete and will thus not compile: some details (including the example message to be decompiled) are replaced with "redacted", the pre-existing dependencies are not included, and some parts of the code are simply removed.
